@@ -66,6 +66,8 @@ body
     #info
     {
         width: calc(100vw - 4em);
+
+        height: auto;
     }
 }
 
@@ -90,9 +92,9 @@ body
 {
     #controls
     {
-       width: calc(100vw - 4em);
+        width: calc(100vw - 4em);
+        height: auto;
     }
-
 }
 
 #computer
