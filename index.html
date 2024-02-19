@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Rock Paper Scissors</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+        <script type="module" src="script.js"></script>
+    </head>
+
+    <body>
+        <div id="container">
+
+            <!-- Info section -->
+            <div id="info" class="glassmorphism">
+                <!-- System section -->
+                <div id="system">
+                    <h1>System</h1>
+
+                    <textarea id="system_text" class="glassmorphism"></textarea>
+                </div>
+
+                <!-- Score section -->
+                <div id="scoreboard">
+                    <h1>Score</h1>
+
+                    <p>You - 0</p>
+
+                    <p>Computer - 0</p>
+
+                    <p>Tie - 0</p>
+                </div>
+            </div>
+
+            <!-- Controls section -->
+            <div id="controls" class="glassmorphism">
+
+                <!-- Computer controls -->
+                <div id="computer" class="control_section">
+                    <h1>Computer</h1>
+
+                    <div class="buttons">
+                        <button id="0">Rock</button>
+                        <button id="1">Paper</button>
+                        <button id="2">Scissors</button>
+                    </div>
+                </div>
+
+                <!-- User controls -->
+                <div id="user" class="control_section">
+                    <h1>You</h1>
+
+                    <div class="buttons">
+                        <button class="glassmorphism">Rock</button>
+                        <button class="glassmorphism">Paper</button>
+                        <button class="glassmorphism">Scissors</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
