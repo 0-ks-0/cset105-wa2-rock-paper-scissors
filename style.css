@@ -24,7 +24,7 @@
     box-shadow: 0 8px 32px 0 rgba(46, 0, 250, 0.225);
 }
 
-body
+html
 {
     /* https: //webgradients.com/ */
     background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
@@ -148,11 +148,4 @@ button
 .selected
 {
     border: 2px solid red;
-}
-
-#user
-{
-    /* position: absolute;
-
-    bottom: 1em; */
 }
